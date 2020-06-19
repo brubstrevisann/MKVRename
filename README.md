@@ -1,15 +1,28 @@
 # MKVRename
 
- Script to rename mkv, removing the garbage of name and remove title of metadata(not to appear on a media server)
+Script to rename MKV, removing the garbage of name and remove the title of metadata(not to appear on a media server).
 
+## Installation
 
-## How to use
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-First you need install python to execute this script
+```bash
+git clone https://github.com/brubstrevisann/MKVRename.git
+```
 
-Them, place the script in the folder where the mkv files are
+```bash
+cd MKVRename
+```
 
-Run
-*** 
-$ python renameScript.py
-***
+## Usage
+
+Them, place the script in the folder where the MKV files are
+
+```python
+python3 renameScript.py
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update the tests as appropriate.
